@@ -25,7 +25,7 @@ SpiralMem::~SpiralMem()
     delete [] _tab;
 }
 
-double SpiralMem::FillMem()
+void SpiralMem::FillMem()
 {
     int row = _array_size/2;
     int column = row - (_array_size + 1)%2;

@@ -9,7 +9,7 @@ public:
     double GetBiggerThanNumber();
 private:
     enum moves{ UP, LEFT, DOWN, RIGHT };
-    double FillMem();
+    void FillMem();
     double Adjacent_sum( const int row, const int column );
     int _array_size;
     double _number_to_count;
